@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Poppins',serif;
+    font-size: 5vmin;
+    color: white;
+}
+ul{
+   flex: 1; 
+   text-align: right;
+   margin-right: 50px;
+   
+}
+ul li{
+    display: inline-block;
+    margin: 10px 25px;
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #4CACBC;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 0 5px gray;
+}
+.btn:hover{
+    background-color: #6CC4A1;
+    box-shadow: 0 0 8px gray;
+    transition: 0.2s;
+}
+.header-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-content h3{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    
+}
+.line{
+    width: 40%;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #6CC4A1;
+
+}
+.header-content span{
+    color: #4CACBC;
+}
+.header-content h1{
+    color: white;
+    font-size: 42px;
+    font-family: 'Poppins',serif;
+    margin: 20px 0;
+}
+.header-content .learn-btn{
+    margin-top: 25px;
+}
+section{
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 10%;
+}
+section .events{
+    text-align: center;
+}
+section .line{
+    margin: auto;
+    width: 20%;
+    margin-top: 10px;
+}
+section .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.row .col{
+    padding: 5% 4%;
+    display: flex;
+    flex-direction: column;
+}
+.row .col img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px lightgrey;
+}
+.col h3{
+    text-align: center;
+    margin-top: 35px;
+}
+.col p{
+    padding-right: 15px;
+    color: gray;
+}
+.col button{
+    margin-top: 25px;
+    width: 30%;
+    align-self: center;
+}
+.explore{
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./images/underwater.jpg");
+    width: 100%;
+    height: 130vh;
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.explore h1{
+    margin-top: 200px;
+    font-size: 56px;
+    color: white;
+}
+.explore .line{
+    width: 68%;
+}
+.explore p{
+    padding: 5% 20%;
+    color: lightgray;
+}
+.upcoming-tours{
+    padding: 30px 10%;
+}
+.upcoming-tours .row{
+    display: flex;
+    align-items: center;
+}
+.upcoming-tours .row .col{
+    width: 50%;
+}
+.upcoming-tours .img-gallery img{
+    width: 250px;
+}
+.upcoming-tours .col-1{
+    text-align: center;
+}
+.upcoming-tours .col-1 h1{
+    font-size: 38px;
+    color: gray;
+    
+}
+.upcoming-tours .col-1 .line{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.upcoming-tours .col-1 p{
+    padding: 5px 25px;
+}
+footer{
+    margin-top: 25px;
+    background-color: #4CACBC;
+    padding: 30px 20%;
+
+}
+.last{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last p{
+    font-size: 16px;
+    margin-bottom: 2px;
+   
+    
+}
+.last h4{
+    font-family: 'Poppins',serif;
+}
